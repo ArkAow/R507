@@ -1,5 +1,3 @@
-import time
-
 class score:
     score_tic_tac_toe:int
     
@@ -9,7 +7,7 @@ class player:
     order:int
     symbole:str
 
-def player_init(player1 : player, player2: player):
+def player_init(player1: player, player2: player):
     """Cette procédure permet d'initialité les pseudo des joueurs et d'initialisé leur score à 0
         pré-condition : deux joueurs de type joueur
         post-conditon : les deux joueurs de type joueur """
