@@ -30,7 +30,7 @@ jobs:
       # Run pytest to execute the tests
       - name: Run tests with pytest
         run: |
-          pytest test_scores.py
+          pytest testScore.py
       
       # List files in the repository
       - name: List files in the repository
